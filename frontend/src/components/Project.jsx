@@ -1,23 +1,35 @@
-
 import React, { useState } from "react";
-import { ExternalLink, Brain, Clock } from "lucide-react";
+import { ExternalLink, Brain, Clock, MessagesSquare } from "lucide-react";
 
 const projects = [
   {
-    title: "Todo App",
-    desc: "A modern Todo application with Local Storage support, allowing users to create, update, complete, and delete tasks with persistent data.",
+    title: "AURA",
+    desc: "A real-time messaging platform with Socket.IO — presence, typing indicators, delivery and read receipts, reactions, replies, message search, and file attachments, secured with JWT and Google OAuth.",
     tags: [
       "React.js",
-      "JavaScript ES6+",
-      "Tailwind CSS",
-      "HTML5",
-      "Local Storage API",
       "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "Axios",
+      "Socket.IO Client",
+      "Node.js",
+      "Express.js",
+      "Socket.IO",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Google OAuth",
+      "Cloudinary",
+      "Multer",
+      "Sharp",
+      "Docker",
     ],
     status: "completed",
-    link: "https://todo-app-fuyb.vercel.app",
-    image: "./Todo thumbnail.PNG",
-    accent: "#7ec699",
+    link: "https://aura1-brown.vercel.app",
+    // Swap this for a real screenshot when you have one, e.g. image: "./aura.PNG"
+    image: null,
+    Icon: MessagesSquare,
+    accent: "#a78bfa",
   },
 
   {
@@ -43,7 +55,6 @@ const projects = [
       "Docker",
       "GitHub Actions",
       "CI/CD",
-      
     ],
     status: "completed",
     link: "https://trendcart1.vercel.app",
@@ -70,7 +81,6 @@ const projects = [
       "Docker",
       "GitHub Actions",
       "CI/CD",
-      
     ],
     status: "completed",
     link: "https://nova-study-ai.vercel.app/",

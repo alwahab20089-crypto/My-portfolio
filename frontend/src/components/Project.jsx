@@ -26,8 +26,7 @@ const projects = [
     ],
     status: "completed",
     link: "https://aura1-brown.vercel.app",
-    // Swap this for a real screenshot when you have one, e.g. image: "./aura.PNG"
-    image: null,
+    image: "./aura.PNG",
     Icon: MessagesSquare,
     accent: "#a78bfa",
   },
